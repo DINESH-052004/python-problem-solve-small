@@ -9,7 +9,7 @@
 # given input alphabet or not
 
 alpha=input("enter your char")
-if alpha>='a' or alpha<='z':
+if alpha>='a' and alpha<='z':
     print(alpha,"alphabet")
 else:
     print("not")
