@@ -157,13 +157,133 @@
 #         num=num-1
 #     print(val)
 
-num=int(input("enter factnum"))
-val=1
-if num<0:
-    print("enter positive")
-else:
+# num=int(input("enter factnum"))
+# val=1
+# if num<0:
+#     print("enter positive")
+# else:
     
-    while(num>=1):
-        val=val*num
-        num=num-1
-    print(val)
+#     while(num>=1):
+#         val=val*num
+#         num=num-1
+#     print(val)
+
+# fibonacci series
+
+# fi=int(input("enter your num"))
+# n1,n2=0,1
+# count=0
+# if fi<0:
+#     print("enter positive num")
+# elif fi==0:
+#     print(n1)
+# else:
+#     while count<=fi:
+#         print(n1)
+#         count=n1+n2
+#         n1=n2
+#         n2=count
+#         count+=1
+
+# leap ot not
+
+# year=int(input("enter your year"))
+# if year%4==0:
+#     if year%100==0:
+#         if year%400==0:
+#             print("year is leap",year)
+#         else:
+#             print(" no leap")
+#     else:
+#         print("leap")
+# else:
+#     print("noleap")
+        
+        # palindrom or not
+        
+# str=input("enter your string")
+# str1=(str[::-1])
+# if str==str1:
+#     print("palindrone",str,str1)
+# else:
+#     print("no")
+
+# amstrong or not
+
+# num=123
+# temp=123
+# d2=0
+# while temp>0:
+#     digit=temp%10
+#     d2=d2+digit**3
+#     temp=temp//10
+# if num==d2:
+#     print("ams",num,d2)
+# else:
+#     print("not")    
+
+# certain range of amstorng 
+
+# a=int(input("enter num1"))
+# b=int(input("enter num2"))
+# for i in range(a,b+1):
+#     string=len(str(i))
+#     temp=i
+#     value=0
+#     while temp>0: 
+#         temp1=temp%10
+#         value=value+temp1**string
+#         temp=temp//10
+#     if value==i:
+#         print(i)
+        
+# sorting operation
+
+# num=[1,2,3,4,5,8,9,21,7]
+# num.sort()
+# print(num)
+# num.reverse()
+# print(num)
+
+# alpha=["dinesh","abi","banu"]
+# alpha.sort()
+# print(alpha)
+# alpha.reverse()
+# print(alpha)
+
+# hcf =highest common factor
+
+# a=25
+# b=35
+# if a<b:
+#     small=b
+# else:
+#     small=a
+# for i in range(1,small+1):
+#     if a%i==0 and b%i==0:
+#         hcf=i
+# print(hcf)
+
+# lcm -least common factor
+
+# a=8
+# b=16
+# if a>b:
+#     small=a
+# else:
+#     small=b
+# while(1):
+#     if small%a==0 and small%b==0:
+#         lcm=small
+#         break
+#     small+=1
+# print(small)
+
+# factor a number
+
+# a=int(input("enter your num"))
+# value=1
+# while value<=a:
+#     if a%value==0:
+#         print(value)
+#     value+=1
